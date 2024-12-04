@@ -17,11 +17,11 @@ def test():
             print('Ваше число меньше')
         
 
-        if guess > number:
+        elif guess > number:
             print('Ваше число больше')
         
 
-        if guess == number:        
+        elif guess == number:        
             print('Вы угодали число')
         
             break
